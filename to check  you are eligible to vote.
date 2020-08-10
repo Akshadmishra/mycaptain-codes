@@ -1,0 +1,31 @@
+//to check weather you are eligible to vote.
+
+#include<iostream>
+using namespace std;
+int main(){
+	char nationality;
+	int age;
+  //to check are you indian.
+	cout<<"are you Indian:";
+	cin>>nationality;
+	switch(nationality)
+	{
+  //if yes then, checking your age to check that you are eligible.
+		case 'y':
+			cout<<"Enter your age:";
+			cin>>age;
+			if(age>=18){
+				cout<<"You are eligible for voting";
+			}
+			else{
+				cout<<"Sorry, you are not elgble for voting,";
+			}
+			break;
+		case 'n':
+			cout<<"Sorry, you are not elgble for voting,";
+			break;
+		default: cout<<"invalid input:";
+		
+	}
+	return 0;
+}
