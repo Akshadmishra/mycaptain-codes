@@ -1,0 +1,38 @@
+#include <iostream>
+using namespace std;
+class time{
+    private:
+        int hours;
+        int minutes;
+        int seconds;
+        int total;
+public:
+    int getdetails()
+    {
+    cout<<"Enter time: ";
+    cout<<"\nHours?";
+    cin>>hours;
+    cout<<"\nMinutes?";
+    cin>>minutes;
+    cout<<"\nSeconds?";
+    cin>>seconds;
+
+    }
+public:
+    int displaytime()
+    {
+    cout<<"\nThe time is = "<<hours<<":"<<minutes<<":"<<seconds<<"\n";
+    }
+public:
+    int timeinsec()
+    {
+        total = (hours*3600) + (minutes*60) +  seconds;
+    }
+};
+int main()
+{
+    time a;
+    a.getdetails();
+    a.displaytime();
+    cout<<"\nTime in total seconds:"<< a.timeinsec();
+}
