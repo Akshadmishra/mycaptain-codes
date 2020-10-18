@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+			gamestop
+		</title>
+	</head>
+		<body>
+			<h1>WELCOME TO GAMESTOP</h1>
+			<hr>
+			<img src="game.jpg" alt="game" width="2080" height="600">
+			<h3>Features of Gamestop.com</h3>
+			<ol>
+				<li>Here you guys can ask any question or query about games you are playing , you can also answer other players quetion or query.</li>
+				<li>Confused that how your game is doing , upload your game here , and our player will play and submit 
+					proper feedback and suggestion to you </li>
+				<li>your privacy is our priority , you can be completly anonymous unless you are abusing others.</li>
+			</ol>
+			<hr>
+			<h3>TOP Games every one is waitin for</h3>
+			<ul>
+				<li>
+					Assassins Creed  Valhalla.
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/ssrNcwxALS4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			    </li>
+			    <li>
+			    	Cyber punk 2077.
+			    	<iframe width="560" height="315" src="https://www.youtube.com/embed/YApuEWtG30w" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			    </li>
+			    <li>
+			    	Last of US part 2.
+			    	<iframe width="560" height="315" src="https://www.youtube.com/embed/X0VubwgS2Y4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			    </li>
+			</ul>
+			<hr>
+			<h3>Have any query??</h3>
+			<h5>Ask your questions or query after entering you username and password.</h5>
+			<form>
+				<label>Enter your username.</label>
+				<input type="username" name="user_name" placeholder="your username here"><br>
+				<label>Enter your password </label>
+				<input type="password" name="password" placeholder="you password here"><br>
+				 <label for="Query">Feed Back</label>       
+     				 <div class="col-75">    
+       				 <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px">
+       				 </textarea>
+       				</div><br>
+       			<input type="submit" value="Submit">    
+			</form>
+			Your query will be answered by fellow gamer shortly.
+			<hr>
+			<h2>Thanks for using Gamestop.com  </h2>
+		</body>
+	
+</html>
